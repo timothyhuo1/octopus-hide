@@ -19,21 +19,38 @@ body{
   margin-bottom: -5px;
 }
 
-#rock{
+#octopus{
   background-color: purple;
   transform: rotate(45deg);
   width: 100px;
   height: 100px;
   margin-top: -100px;
   margin-left: 25px;
-  animation: rock-moving 10s linear infinite;
+  animation: octopus-moving 15s linear infinite;
 }
 
-#rock:hover{
+#octopus:hover{
   background-color: brown;
 }
 
-@keyframes rock-moving {
+#fish{
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  margin-top: -400px;
+  margin-left: 200px;
+  animation: octopus-moving 10s linear infinite;
+}
+
+#shark{
+  background-color: blue;
+  width: 150px;
+  height: 100px;
+  margin-top: -80px;
+  animation: octopus-moving 10s linear infinite;
+}
+
+@keyframes octopus-moving {
   0%{
     transform: translateX(0px);
   }
