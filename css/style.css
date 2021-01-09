@@ -57,6 +57,27 @@ body{
   top: -97px;
 }
 
+#rock{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  top: -85px;
+  left: 200px;
+}
+
+#pufferfish{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  top: -200px;
+  right: 850px;
+  animation: fish-moving 10s linear infinite;
+}
+
+#pufferfish:hover{
+  width: 150px;
+}
+
 @keyframes octopus-moving {
   0%{
     transform: translateX(900px);
